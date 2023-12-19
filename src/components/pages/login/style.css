@@ -1,0 +1,71 @@
+.login-con {
+  min-width: 350px;
+  width: 375px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 70px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  .login-text {
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+  }
+  .form-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 5px;
+    gap: 20px;
+    .input-items-con {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      gap: 20px;
+
+      .email-con,
+      .password-con {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        font-weight: 500;
+        gap: 5px;
+      }
+      .input-email,
+      .input-password {
+        border: none;
+        border-radius: 10px;
+        background: #4b3a3a;
+        min-width: 350px;
+
+        height: 46px;
+        color: burlywood;
+        padding: 0px 10px;
+      }
+      .email-con {
+        .input-email:focus {
+          border: 0.8px solid orange;
+          outline: none;
+        }
+      }
+      .password-con {
+        .input-password:focus {
+          border: 0.8px solid orange;
+          outline: none;
+        }
+      }
+    }
+  }
+  .submit-con {
+    padding: none;
+  }
+}

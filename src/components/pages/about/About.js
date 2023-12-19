@@ -1,7 +1,8 @@
+import "./style.css";
 const About = () =>{
     return (
         <>
-            This is About
+            <div className="about-con mt-56">This is about con</div>
         </>
     );
 };

@@ -1,0 +1,35 @@
+.home-con {
+  color: white;
+  text-align: center;
+  .header-con {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .books-con {
+    .books-container {
+        margin:0px 20px;
+      border-radius: 12px;
+      border:1px solid #623f30;
+    }
+    .book {
+      border-radius: 12px;
+      margin: 20px;
+      background-size: cover;
+      filter: grayscale(20%);
+      .book-details-con {
+        border-radius: 12px;
+        padding: 100px 20px;
+        backdrop-filter: blur(4px);
+      }
+    }
+  }
+  .video-con {
+    border:1px solid #623f30;
+    border-radius:12px;
+    margin:20px;
+    padding:20px;
+
+  }
+}
